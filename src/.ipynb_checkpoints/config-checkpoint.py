@@ -12,7 +12,7 @@ TRAIN_CSV = os.path.join(PROCESSED_DIR,"train_ratings.csv")
 TEST_CSV = os.path.join(PROCESSED_DIR,"test_ratings.csv")
 MOVIE_MAP = os.path.join(PROCESSED_DIR,"movie_mapping.csv")
 
-MODELS_DIR = os.path.join(ROOT,"src","models")
+MODELS_DIR = os.path.join(ROOT,"model")
 
 RBM_CKPT = os.path.join(MODELS_DIR,"rbm_model.pt")
 AE_CKPT = os.path.join(MODELS_DIR,"autoencoder_model.pt")
